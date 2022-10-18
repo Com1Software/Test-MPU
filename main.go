@@ -1,18 +1,20 @@
 package main
 
 import (
-//	"time"
+	"golang.org/x/exp/io/i2c"
 )
+
 func main() {
-  // Create new connection to I2C bus on 2 line with address 0x27
-  i2c, err := i2c.NewI2C(0x27, 2)
-  if err != nil { log.Fatal(err) }
-  // Free I2C connection on exit
-  defer i2c.Close()
-  ....
-  // Here goes code specific for sending and reading data
-  // to and from device connected via I2C bus, like:
-  _, err := i2c.Write([]byte{0x1, 0xF3})
-  if err != nil { log.Fatal(err) }
-  ....
+	d, err := i2c.Open(&i2c.Devfs{Dev: "/dev/i2c-1"}, 0x39)
+	if err != nil {
+		panic(err)
+	}
+
+	// opens a 10-bit address
+	d, err = i2c.Open(&i2c.Devfs{Dev: "/dev/i2c-1"}, i2c.TenBit(0x78))
+	if err != nil {
+		panic(err)
+	}
+
+	_ = d
 }
