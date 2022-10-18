@@ -1,21 +1,18 @@
 package main
 
 import (
-	"machine"
-	"time"
-
-	"tinygo.org/x/drivers/mpu6050"
+//	"time"
 )
-
 func main() {
-	machine.I2C0.Configure(machine.I2CConfig{})
-
-	accel := mpu6050.New(machine.I2C0)
-	accel.Configure()
-
-	for {
-		x, y, z := accel.ReadAcceleration()
-		println(x, y, z)
-		time.Sleep(time.Millisecond * 100)
-	}
+  // Create new connection to I2C bus on 2 line with address 0x27
+  i2c, err := i2c.NewI2C(0x27, 2)
+  if err != nil { log.Fatal(err) }
+  // Free I2C connection on exit
+  defer i2c.Close()
+  ....
+  // Here goes code specific for sending and reading data
+  // to and from device connected via I2C bus, like:
+  _, err := i2c.Write([]byte{0x1, 0xF3})
+  if err != nil { log.Fatal(err) }
+  ....
 }
