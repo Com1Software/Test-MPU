@@ -1,5 +1,7 @@
 # Test-MPU Motion Processing Unit
 
+[Tutorial on MPU](https://tutorials-raspberrypi.com/measuring-rotation-and-acceleration-raspberry-pi/)
+
 [raspberrypi-go-drivers mpu6050](https://github.com/raspberrypi-go-drivers/mpu6050)
 
 [gobot mpu-6050 ](https://gobot.io/documentation/drivers/mpu6050/)
