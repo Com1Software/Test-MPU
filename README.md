@@ -1,4 +1,4 @@
-# Test-IMU
+# Test-MPU Motion Processing Unit
 
 
 [gobot mpu-6050 ](https://gobot.io/documentation/drivers/mpu6050/)
