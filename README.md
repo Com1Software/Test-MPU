@@ -2,6 +2,8 @@
 
 [Go i2c](https://pkg.go.dev/golang.org/x/exp/io/i2c)
 
+[m-rtijn/mpu6050](https://github.com/m-rtijn/mpu6050/)
+
 [Arijit1080/mpu6050-with-Raspberry-Pi](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi)
 
 [ MPU6050 with Raspberry Pi ](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi)
