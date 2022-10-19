@@ -1,6 +1,6 @@
 # Test-MPU Motion Processing Unit
 
-[Go i2c](https://github.com/d2r2/go-i2c)
+[Go i2c](https://pkg.go.dev/golang.org/x/exp/io/i2c)
 
 [Tutorial on MPU](https://tutorials-raspberrypi.com/measuring-rotation-and-acceleration-raspberry-pi/)
 
