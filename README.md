@@ -5,6 +5,7 @@
 
 [ MPU6050 with Raspberry Pi ](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi)
 
+[mpu_6050.py](https://github.com/Arijit1080/mpu6050-with-Raspberry-Pi/blob/master/mpu_6050.py)
 
 [ MPU6050 with Raspberry Pi using python in easiest way | Accelerometer | Gyroscope | Temperature ](https://www.youtube.com/watch?v=JTFa5l7zAA4)
 
