@@ -1,5 +1,7 @@
 # Test-MPU Motion Processing Unit
 
+https://github.com/d2r2/go-i2c
+
 [Go i2c](https://pkg.go.dev/golang.org/x/exp/io/i2c)
 
 [m-rtijn/mpu6050](https://github.com/m-rtijn/mpu6050/)
