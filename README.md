@@ -1,5 +1,7 @@
 # Test-MPU Motion Processing Unit
 
+https://periph.io/
+
 https://github.com/d2r2/go-i2c
 
 [Go i2c](https://pkg.go.dev/golang.org/x/exp/io/i2c)
